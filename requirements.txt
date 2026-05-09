@@ -1,0 +1,13 @@
+pandas>=2.2.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+scikit-learn>=1.4.0
+nltk>=3.8.1
+textblob>=0.18.0
+vaderSentiment>=3.3.2
+yfinance>=0.2.40
+pynance>=1.0.0
+pytest>=8.0.0
+jupyter>=1.0.0
+ipykernel>=6.29.0
