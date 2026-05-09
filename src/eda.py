@@ -5,8 +5,6 @@ from __future__ import annotations
 import re
 
 import pandas as pd
-from sklearn.decomposition import LatentDirichletAllocation
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 
 
 def headline_length_summary(news: pd.DataFrame) -> pd.DataFrame:
@@ -49,6 +47,8 @@ def top_tfidf_terms(
     ngram_range: tuple[int, int] = (1, 2),
 ) -> pd.DataFrame:
     """Extract high-signal words and phrases from headlines with TF-IDF."""
+    from sklearn.feature_extraction.text import TfidfVectorizer
+
     vectorizer = TfidfVectorizer(
         stop_words="english",
         ngram_range=ngram_range,
@@ -69,6 +69,9 @@ def lda_topics(
     random_state: int = 42,
 ) -> pd.DataFrame:
     """Fit a compact LDA topic model and return top terms per topic."""
+    from sklearn.decomposition import LatentDirichletAllocation
+    from sklearn.feature_extraction.text import CountVectorizer
+
     vectorizer = CountVectorizer(
         stop_words="english",
         ngram_range=(1, 2),
