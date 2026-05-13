@@ -43,6 +43,14 @@ The loader accepts common CSV filenames and can also be pointed at a custom path
 - Reproducible notebook: [notebooks/task_1_eda.ipynb](notebooks/task_1_eda.ipynb).
 - Tested helper functions in `src/`.
 
+## Task 2 Deliverables
+
+- `task-2` branch for quantitative stock-price analysis.
+- Reproducible notebook: [notebooks/task_2_quantitative_analysis.ipynb](notebooks/task_2_quantitative_analysis.ipynb).
+- TA-Lib-compatible SMA, EMA, RSI, and MACD calculations.
+- PyNance-style return, volatility, drawdown, and Sharpe-ratio metrics.
+- Visualizations saved to `reports/figures/` when the notebook is executed.
+
 ## Analysis Covered
 
 - Headline length descriptive statistics.
@@ -51,6 +59,7 @@ The loader accepts common CSV filenames and can also be pointed at a custom path
 - Keyword and phrase extraction with TF-IDF.
 - Lightweight topic modeling with LDA.
 - Publisher domain extraction when publisher names are email addresses.
+- Historical price-data cleaning and technical-indicator analysis.
 
 ## Testing
 
