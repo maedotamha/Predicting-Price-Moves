@@ -51,6 +51,15 @@ The loader accepts common CSV filenames and can also be pointed at a custom path
 - PyNance-style return, volatility, drawdown, and Sharpe-ratio metrics.
 - Visualizations saved to `reports/figures/` when the notebook is executed.
 
+## Task 3 Deliverables
+
+- `task-3` branch for sentiment-return correlation analysis.
+- Reproducible notebook: [notebooks/task_3_sentiment_correlation.ipynb](notebooks/task_3_sentiment_correlation.ipynb).
+- Headline sentiment scoring with VADER and a lightweight fallback.
+- Weekend/holiday news alignment to the next available trading day.
+- Daily stock-return calculation and Pearson correlation analysis.
+- Scatter and bar-chart visualizations saved to `reports/figures/`.
+
 ## Analysis Covered
 
 - Headline length descriptive statistics.
@@ -60,6 +69,7 @@ The loader accepts common CSV filenames and can also be pointed at a custom path
 - Lightweight topic modeling with LDA.
 - Publisher domain extraction when publisher names are email addresses.
 - Historical price-data cleaning and technical-indicator analysis.
+- Sentiment scoring, date alignment, return calculation, and sentiment-return correlation.
 
 ## Testing
 
