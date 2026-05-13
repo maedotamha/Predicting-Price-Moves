@@ -8,6 +8,7 @@ textblob>=0.18.0
 vaderSentiment>=3.3.2
 yfinance>=0.2.40
 pynance>=1.0.0
+TA-Lib>=0.4.32
 pytest>=8.0.0
 jupyter>=1.0.0
 ipykernel>=6.29.0
