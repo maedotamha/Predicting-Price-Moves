@@ -1,0 +1,2 @@
+start_price,end_price,cumulative_return,annualized_volatility,max_drawdown,sharpe_ratio_zero_rf,pynance_available
+18.0324,128.7646,6.1407,0.2865,-0.4409,0.6242,False

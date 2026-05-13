@@ -1,0 +1,85 @@
+{
+  "news_rows": 2493,
+  "price_rows": 17784,
+  "date_range": [
+    "2009-10-07 00:00:00+00:00",
+    "2023-12-16 23:00:00+00:00"
+  ],
+  "selected_tickers": [
+    "AA",
+    "AAL",
+    "A",
+    "AADR",
+    "AACG"
+  ],
+  "top_publishers": {
+    "Nasdaq": 2493
+  },
+  "top_stocks": {
+    "AA": 1525,
+    "AAL": 463,
+    "A": 379,
+    "AADR": 77,
+    "AACG": 49
+  },
+  "headline_mean_chars": 60.2,
+  "headline_mean_words": 9.78,
+  "peak_news_day": {
+    "date": "2023-05-24",
+    "article_count": 21
+  },
+  "peak_news_hour_utc": 0,
+  "top_terms": [
+    "alcoa",
+    "earnings",
+    "aa",
+    "stock",
+    "stocks",
+    "market",
+    "analyst",
+    "analyst blog",
+    "blog",
+    "alcoa aa"
+  ],
+  "technical_stock": "A",
+  "latest_adj_close": 128.76455688476562,
+  "latest_rsi_14": 47.67674079230828,
+  "latest_macd": 3.333346052909093,
+  "financial_metrics": {
+    "start_price": 18.0324,
+    "end_price": 128.7646,
+    "cumulative_return": 6.1407,
+    "annualized_volatility": 0.2865,
+    "max_drawdown": -0.4409,
+    "sharpe_ratio_zero_rf": 0.6242,
+    "pynance_available": false
+  },
+  "correlation_observations": 1227,
+  "overall_pearson_correlation": 0.03906653860652053,
+  "returns_by_sentiment": [
+    {
+      "sentiment_label": "negative",
+      "avg_daily_return_pct": 0.3633,
+      "observations": 191
+    },
+    {
+      "sentiment_label": "neutral",
+      "avg_daily_return_pct": 0.1646,
+      "observations": 565
+    },
+    {
+      "sentiment_label": "positive",
+      "avg_daily_return_pct": 2.2266,
+      "observations": 471
+    }
+  ],
+  "figures": [
+    "actual_top_publishers.png",
+    "actual_daily_news_volume.png",
+    "actual_top_tfidf_terms.png",
+    "actual_price_moving_averages.png",
+    "actual_rsi_macd.png",
+    "actual_sentiment_return_scatter.png",
+    "actual_return_by_sentiment.png"
+  ]
+}

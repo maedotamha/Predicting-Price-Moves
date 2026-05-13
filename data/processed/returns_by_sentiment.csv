@@ -1,0 +1,4 @@
+sentiment_label,avg_daily_return_pct,observations
+negative,0.3633,191
+neutral,0.1646,565
+positive,2.2266,471
